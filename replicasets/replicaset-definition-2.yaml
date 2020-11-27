@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        type: nginx
+        type: frontend
     spec:
       containers:
       - name: nginx-container
