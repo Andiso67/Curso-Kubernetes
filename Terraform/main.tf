@@ -46,6 +46,7 @@ datastore_id = data.vsphere_datastore.datastore.id
 num_cpus = var.vm-cpu
 memory = var.vm-ram
 guest_id = var.vm-guest-id
+}
 
 network_interface {
   network_id = data.vsphere_network.network.id
