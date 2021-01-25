@@ -56,7 +56,7 @@ resource "vsphere_virtual_machine" "vm" {
 
   disk {
     label = "${var.vm-name}-${count.index + 1}-disk"
-    size  = 25
+    size  = 50
   }
 
   clone {
