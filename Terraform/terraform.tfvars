@@ -30,8 +30,7 @@ vsphere-cluster = "Cluster1"
 vm-datastore = "NFS-SYNOLOGY-VolumenNFSVMware"
 
 # vSphere Network used to deploy VMs 
-vm-network = "
-Grupo de puertos distribuidos DPortGroup01-DSWITCH-RED-PRODUCCION-A"
+vm-network = "Grupo de puertos distribuidos DPortGroup01-DSWITCH-RED-PRODUCCION-A"
 
 # Linux virtual machine domain name
 vm-domain = "UbuntuTerraform.local"
