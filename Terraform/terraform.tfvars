@@ -4,7 +4,7 @@ vm-name = "Ubuntu18_64Guest"
 vm-template-name = "Plantilla_Ubuntu_18-04"
 vm-cpu = "2"
 vm-ram = "4096"
-vm-guest-id = "Ubuntu64Guest"
+vm-guest-id = "ubuntu64Guest"
 
 # VMware vSphere configuration #
 
