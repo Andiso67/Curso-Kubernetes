@@ -40,9 +40,11 @@ data "vsphere_virtual_machine" "template" {
 # Create VMs
 resource "vsphere_virtual_machine" "vm" {
   count = var.vm-count
+  
   name = "${var.vm-name}-${count.index + 1}"
   resource_pool_id = data.vsphere_compute_cluster.cluster.resource_pool_id
   datastore_id = data.vsphere_datastore.datastore.id
+  
   num_cpus = var.vm-cpu
   memory = var.vm-ram
   guest_id = var.vm-guest-id
