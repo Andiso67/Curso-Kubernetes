@@ -1,36 +1,37 @@
 # VMware VMs configuration #
 vm-count = "2"
-vm-name = "kopik8snode"
-vm-template-name = "CentOS7-Template"
+vm-name = "Ubuntu18_64Guest"
+vm-template-name = "Plantilla_Ubuntu_18-04"
 vm-cpu = "2"
 vm-ram = "4096"
-vm-guest-id = "centos7_64Guest"
+vm-guest-id = "Ubuntu18_64Guest"
 
 # VMware vSphere configuration #
 
 # VMware vCenter IP/FQDN
-vsphere-vcenter = "10.100.123.10"
+vsphere-vcenter = "10.150.1.240"
 
 # VMware vSphere username used to deploy the infrastructure
-vsphere-user = "administrator@kopicloud.local"
+vsphere-user = "administrator@datarecover.cloud"
 
 # VMware vSphere password used to deploy the infrastructure
-vsphere-password = "Th1sIsN0tAPassw0rd"
+vsphere-password = "Rec0Mudez16@"
 
 # Skip the verification of the vCenter SSL certificate (true/false)
 vsphere-unverified-ssl = "true"
 
 # vSphere datacenter name where the infrastructure will be deployed 
-vsphere-datacenter = "KopiCloud-DC"
+vsphere-datacenter = "Norias.Datarecover.Cloud"
 
 # vSphere cluster name where the infrastructure will be deployed
-vsphere-cluster = "KopiCloud-Cluster"
+vsphere-cluster = "Cluster1"
 
 # vSphere Datastore used to deploy VMs 
-vm-datastore = "KopiCloud-Datastore-01"
+vm-datastore = "NFS-SYNOLOGY-VolumenNFSVMware"
 
 # vSphere Network used to deploy VMs 
-vm-network = "VM Network"
+vm-network = "
+Grupo de puertos distribuidos DPortGroup01-DSWITCH-RED-PRODUCCION-A"
 
 # Linux virtual machine domain name
-vm-domain = "kopicloud.local"
+vm-domain = "UbuntuTerraform.local"
