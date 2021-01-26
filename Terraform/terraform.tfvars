@@ -34,3 +34,6 @@ vm-network = "DPortGroup01-DSWITCH-RED-PRODUCCION-A"
 
 # Linux virtual machine domain name
 vm-domain = "UbuntuTerraform.local"
+
+# Vcennter Template Folder
+vsphere-template-forlder = "Terraform"
