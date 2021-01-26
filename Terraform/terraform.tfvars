@@ -1,7 +1,7 @@
 # VMware VMs configuration #
 vm-count = "1"
 vm-name = "Ubuntu18_64Guest"
-vm-template-name = "Plantilla_Ubunntu18_v2"
+vm-template-name = "Plantilla_Ubuntu18_v2"
 vm-cpu = "2"
 vm-ram = "4096"
 vm-guest-id = "ubuntu64Guest"
