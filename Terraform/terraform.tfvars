@@ -36,4 +36,4 @@ vm-network = "DPortGroup01-DSWITCH-RED-PRODUCCION-A"
 vm-domain = "UbuntuTerraform.local"
 
 # Vcenter Template Folder
-vsphere-template-forlder = "PruebasAndres/Terraform"
+vsphere-template-folder = "PruebasAndres/Terraform"
