@@ -4,7 +4,8 @@ vm-name = "Ubuntu18_64Guest"
 vm-template-name = "Plantilla_Ubuntu18_v1_B"
 vm-cpu = "2"
 vm-ram = "4096"
-vm-guest-id = "ubuntu64Guest"
+#vm-guest-id = "ubuntu64Guest"
+vm-guest-id = "coreos64Guest"
 # Use linked clone (true/false)
 vm_linked_clone = "false"
 
