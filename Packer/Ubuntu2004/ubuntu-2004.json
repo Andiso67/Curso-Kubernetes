@@ -46,7 +46,7 @@
         "convert_to_template": true,
   
         "ssh_username": "ubnt",      
-        "ssh_password": "ubnt",
+        "ssh_password": "AndisO@1441",
         "ssh_timeout": "20m",
         "ssh_handshake_attempts": "100",
   
