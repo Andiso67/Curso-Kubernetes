@@ -1,4 +1,4 @@
-{{
+{
     
     "variables": {    
       "vsphere-server": "10.150.1.240",
