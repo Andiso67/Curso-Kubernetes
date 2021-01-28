@@ -4,7 +4,7 @@
       "vsphere-server": "10.150.1.240",
       "vsphere-user": "administrator@datarecover.cloud",
       "vsphere-password": "Rec0Mudez16@",
-      "vsphere-datacenter": "Norias.Datacenter.Cloud",    
+      "vsphere-datacenter": "Norias.Datarecover.Cloud",    
       "vsphere-cluster": "Cluster1",    
       "vsphere-network": "DPortGroup01-DSWITCH-RED-PRODUCCION-A",
       "vsphere-datastore": "NFS-SYNOLOGY-VolumenNFSVMware",        
