@@ -17,9 +17,10 @@ autoinstall:
     hostname: ubuntu-packer
     username: ubnt
 #    password: $6$RAVeOPg.9rJylcnK$tm6KVpRXxTGb0et.1PQcmLVCFLjIVaLye.Weiizxw3ecGRI2kA0JH7nFxkJCz4oeZphSO4qzYSwncE/s34UHg0
-    password: $6$GIa1YPXObgXrxU0I$jx7KQSz5zW6ylhYBYbt2vw/9WndPnfzhlQKIMOI0llGRorORWjnCYw3OFidqN7Vw30MCYMEKHUdfikFSFSkFe/
+    password: '$6$cgxcz3Ap4fBjlz.h$K.RHURsdEORSBgbGqI.hP9pNxHv.3.8aiZpVvpOiagFjO0P2nHlBkFOyfAXsKNPilOYWTPISzAdR1rLR9v7a2.'
   ssh:
     install-server: yes
+    allow-password: yes
 #    allow-pw: true
 #    authorized-keys: 
 #      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCi9eAu6KBaShdcL4pxi6/sJp+IS6nCKexcjQdwFLxg+EoiT2MTAnMsjnfi570het+VV+iOigcZLuRwEcAPh6rSQOtpikmpV6WFjzToWq9aUxDrxWsp/iEPHp+sbjrlsdnGvLGY9XhmPs9s5I8xFQbwF6ilhMIQm+RxtGJJuPUWaF+uXo+3CB91A6bK/rjs97iAjrPZRs0vo5hJGqrIGFi3WP9hf8hF9oWz2BiLRYBib3il6lsAl4Ca0sI//gNM0Ztj4gB7qv1+uPz157bk0IZoN285/72l/rUZVSPIwO+QFZFK07FsyVrpAgMlHk65BiSAO4DtolZEArfXRE1g1DH/ mail@example.com
