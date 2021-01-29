@@ -18,5 +18,5 @@
     "ssh-username": "kopicloud",
     "ssh-password": "kopicloud",
     
-    "iso-url": "[NFS-SYNOLOGY-VolumenNFSVMware] ISOS/ubuntu-20.04.1-live-server-amd64.iso",
-  }  
+    "iso-url": "[NFS-SYNOLOGY-VolumenNFSVMware] ISOS/ubuntu-20.04.1-live-server-amd64.iso"
+}  
