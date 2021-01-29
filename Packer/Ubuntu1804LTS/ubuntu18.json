@@ -26,16 +26,23 @@
             "network": "{{user `network`}}", 
             "network_card": "vmxnet3"
           },
+        
         "vm_name": "{{user `vm-name`}}",
         "notes": "Build via Packer",  
-  
+        "convert_to_template": "true",
+       
         "ssh_username": "{{user `ssh-username`}}",
         "ssh_password": "{{user `ssh-password`}}",
+        "ssh_timeout": "20m",
+        "ssh_handshake_attempts": "100",
+       
+        "iso_paths": ["{{user `iso-url`}}"],
 
         "folder": "{{user `folder`}}",
         
-        "convert_to_template": "true",
         
+        
+        "boot_wait": "2s",
         "boot_order": "disk,cdrom",
     
         "iso_paths": ["{{user `iso-url`}}"],
