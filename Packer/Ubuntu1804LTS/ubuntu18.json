@@ -18,8 +18,10 @@
   
         "convert_to_template": "true",
       
-        "network": "{{user `network`}}",
-        "network_card": "vmxnet3",
+        "network_adapters": {
+            "network": "{{user `vsphere-network`}}", 
+            "network_card": "vmxnet3"
+          },
       
         "boot_order": "disk,cdrom",
     
@@ -37,7 +39,7 @@
             "disk_size": 25000,
             "disk_thin_provisioned":true
           },
-          
+
         "iso_paths": ["{{user `iso_url`}}"],
   
         "floppy_files": ["./preseed.cfg"],
