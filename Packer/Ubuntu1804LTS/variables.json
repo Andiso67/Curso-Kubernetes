@@ -18,7 +18,8 @@
     "ssh-username": "kopicloud",
     "ssh-password": "kopicloud",
     
-    "iso-url": "http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.4-server-amd64.iso",
+#    "iso-url": "http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.4-server-amd64.iso",
+    "iso-url": "[NFS-SYNOLOGY-VolumenNFSVMware] ISOS/ubuntu-20.04.1-live-server-amd64.iso"
     "iso-checksum": "e2ecdace33c939527cbc9e8d23576381c493b071107207d2040af72595f8990b",
     "iso-checksum-type": "sha256"
   }  
