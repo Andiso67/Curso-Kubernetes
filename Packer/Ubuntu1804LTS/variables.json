@@ -1,0 +1,24 @@
+{
+    "vm-name": "Ubuntu-1804-Template",
+      
+    "vcenter-server":"10.150.1.240",
+    "vcenter-username":"administrator@datarecover.cloud",
+    "vcenter-password":"Rec0Mudez16@",
+    
+    "datacenter": "Norias.Datarecover.Cloud",
+    "datastore": "NFS-SYNOLOGY-VolumenNFSVMware",
+    "folder": "PruebasAndres",
+    "cluster": "Cluster1",
+    "network": "DPortGroup01-DSWITCH-RED-PRODUCCION-A",
+    
+    "vm-cpu-num": "2",
+    "vm-mem-size": "4096",
+    "vm-disk-size": "25600",
+      
+    "ssh-username": "kopicloud",
+    "ssh-password": "kopicloud",
+    
+    "iso-url": "http://cdimage.ubuntu.com/releases/18.04/release/ubuntu-18.04.4-server-amd64.iso",
+    "iso-checksum": "e2ecdace33c939527cbc9e8d23576381c493b071107207d2040af72595f8990b",
+    "iso-checksum-type": "sha256"
+  }  
