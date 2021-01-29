@@ -44,9 +44,7 @@
         
         "boot_wait": "2s",
         "boot_order": "disk,cdrom",
-    
-        "iso_paths": ["{{user `iso-url`}}"],
-  
+      
         "floppy_files": ["./preseed.cfg"],
         "boot_command": [
           "<enter><wait><f6><wait><esc><wait>",
