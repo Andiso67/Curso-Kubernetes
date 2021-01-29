@@ -1,0 +1,11 @@
+{
+    "vcenter_server":"10.150.1.240",
+    "username":"administrator@datarecover.cloud",
+    "password":"Rec0Mudez16@",
+    "datastore":"NFS-SYNOLOGY-VolumenNFSVMware",
+    "folder": "PruebasAndres",
+    "cluster": "Cluster1",
+    "network": "DPortGroup01-DSWITCH-RED-PRODUCCION-A",
+    "ssh_username": "andiso",
+    "ssh_password": "andiso"
+}
