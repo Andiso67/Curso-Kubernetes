@@ -38,7 +38,7 @@
         
         "boot_order": "disk,cdrom",
     
-        "iso_paths": ["{{user `iso_url`}}"],
+        "iso_paths": ["{{user `iso-url`}}"],
   
         "floppy_files": ["./preseed.cfg"],
         "boot_command": [
