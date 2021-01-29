@@ -15,9 +15,9 @@ autoinstall:
       name: lvm
   identity:
     hostname: ubuntu-packer
-    username: ubnt
+    username: ubuntu
 #    password: $6$RAVeOPg.9rJylcnK$tm6KVpRXxTGb0et.1PQcmLVCFLjIVaLye.Weiizxw3ecGRI2kA0JH7nFxkJCz4oeZphSO4qzYSwncE/s34UHg0
-    password: $6$tjVakLQdOXjyj.UA$N66ZtmsBUkEx.LqSnbP8zUO2XlNZWpvWJUWffnZfzQF9WNbA056z7W..Fblz7AGACmIeUUM1gu8QXt1RL5M2n/
+    password: "$6$exDY1mhS4KUYCE/2$zmn9ToZwTKLhCw.b4/b.ZRTIZM30JZ4QrOQ2aOXJ8yk96xpcCof0kxKwuX1kqLG/ygbJ1f8wxED22bTL4F46P0"
   ssh:
     install-server: yes
     allow-pw: yes
@@ -26,4 +26,4 @@ autoinstall:
   user-data:
     disable_root: false
   late-commands:
-    - echo 'ubnt ALL=(ALL) NOPASSWD:ALL' > /target/etc/sudoers.d/ubuntu
+    - echo 'ubuntu ALL=(ALL) NOPASSWD:ALL' > /target/etc/sudoers.d/ubuntu
