@@ -37,9 +37,8 @@
             "disk_size": 25000,
             "disk_thin_provisioned":true
           },
-        "iso_urls": "{{user `iso-url`}}",
-        "iso_checksum": "{{user `iso-checksum`}}",
-        "iso_checksum_type": "{{user `iso-checksum-type`}}",
+          
+        "iso_paths": ["{{user `iso_url`}}"],
   
         "floppy_files": ["./preseed.cfg"],
         "boot_command": [
