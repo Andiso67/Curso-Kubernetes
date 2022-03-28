@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: comprueba-cip
+spec:
+  containers:
+  - name: centos
+    image: centos
+    command: ["/bin/sh", "-c", "while : ;do curl http://${NUESTRO_SERVICIO_PARA_NGINX_CIP_SERVICE_HOST}:80/; sleep 10; done"]

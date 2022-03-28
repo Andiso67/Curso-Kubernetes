@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: ejemplo
+spec:
+ containers:
+ - name: web
+   image: nginx
+   ports:
+   - containerPort: 80
+ - name: centos
+   image: centos
+   command: ["bin/sh", "-c", "while : ;do curl http://localhost:80/; sleep 10; done"]
